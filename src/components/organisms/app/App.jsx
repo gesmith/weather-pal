@@ -58,7 +58,7 @@ function App() {
   return (
     <AppContainer>
       <header className="app-header">
-        <h2>Weather</h2>
+        <h1>Weather</h1>
         <SearchInput
           placeholder="Enter Zip code"
           value={searchValue}

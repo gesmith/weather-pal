@@ -54,11 +54,15 @@ const WeatherHero = ({
         <Temperature>{temperatureRounded}&#176;</Temperature>
         <WeatherDescription>{description}</WeatherDescription>
         <HighLowTemperature>
-          <div>High: {highTemperature.toFixed(0)}&#176;&#160;</div>
-          <div>Low: {lowTemperature.toFixed(0)}&#176;</div>
+          <div>High: {highTemperature?.toFixed(0)}&#176;&#160;</div>
+          <div>Low: {lowTemperature?.toFixed(0)}&#176;</div>
         </HighLowTemperature>
       </Flex>
-      <div>{imageUrl ? <WeatherImage src={imageUrl} alt="" /> : null}</div>
+      <div>
+        {imageUrl ? (
+          <WeatherImage src={imageUrl} alt="" data-testid="weather-image" />
+        ) : null}
+      </div>
     </Container>
   );
 };
