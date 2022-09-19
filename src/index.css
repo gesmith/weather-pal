@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300";
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background: #eee;
+  background: linear-gradient(0deg, rgba(0, 0, 200, 0.2), rgba(0, 0, 200, 0));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
