@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+## Weather Pal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Also, here's my [Solar Planner](https://github.com/gesmith/solar-planner) app.
 
 ## Available Scripts
 
